@@ -1,0 +1,152 @@
+/**
+ * Name: Style.css
+ * Content Style sheet for user pages
+ * Author: Ashraf Diab
+ * Version: V1.0
+**/
+
+/* Import google font */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+
+/* Start general style */
+.active {
+    color: black;
+}
+
+.container-fluid{
+    padding: 0 !important;
+}
+
+.row {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+/* End general style */
+
+/* Start home page style */
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.blog .content {
+    color: #000;
+}
+
+.blog .blogLink {
+    text-decoration: none;
+}
+
+.blog .img_div {
+    height: 250px !important;
+}
+
+.blog .blogLink img.blog_img {
+    transition: all 0.5s;
+    height: 100%;
+    width: 100%;
+}
+
+.blog .blogLink:hover img.blog_img {
+    transform: scale(0.9);
+}
+/* End home page style */
+
+/* Start user register and login pages style */
+.registerContainer {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(180, 179, 179);
+}
+
+.registerContainer .register {
+    background-color: rgb(241, 235, 235);
+    width: 30%;
+    border-radius: 20px;
+}
+
+.registerContainer .register h2,
+.registerContainer .register .form-group input::placeholder,
+.registerContainer .register .form-group button,
+.registerContainer .register .form-group .checkLabel,
+.notaoth h2,
+.notaoth .visit_site {
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 2px;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group .required, .form-group .requiredBox {
+    position: absolute;
+    color: red;
+}
+
+.form-group .required,
+.form-group .requiredBox {
+    top: 10px;
+    right: 10px;
+}
+
+.form-group .requiredBox {
+    top: 3px;
+}
+/* End user register and login pages style */
+
+/* Start notaouth page style */
+.notaoth {
+    background-color: rgb(1, 1, 32);
+    color: #fff;
+}
+
+.notaoth .notaouth_error {
+    color: red;
+}
+/* End notaouth page style */
+
+/* Start blog page style */
+.the_blog .blog_img {
+    height: 450px !important;
+    width: 800px;
+}
+
+.the_blog .blog_img img {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.blog_comments {
+    width: 100% !important;
+}
+
+.blog_comments .comments {
+    background-color: rgb(197, 197, 197);
+    width: 85%;
+    border-radius: 20px;
+}
+
+.blog_comments .comments .user {
+    position: relative;
+}
+
+.blog_comments .comments .user .controls {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.blog_comments .comment textarea {
+    width: 100%;
+    border: 1px solid gray;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    resize: none;
+}
+
+.blog_comments .comment .share_comment button {
+    border-radius: 20px;
+}
+/* End blog page style */

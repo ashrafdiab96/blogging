@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    font-family: 'Cairo', sans-serif;
+    letter-spacing: 2px;
+}
+
+.navbar {
+    background-color: rgb(51, 51, 95) !important;
+}
+
+.navbar a {
+    color: #ffff !important;
+}
+
+.navbar a:hover {
+    color: rgb(199, 191, 191) !important;
+}
+
+.navbar .active {
+    color: rgb(199, 191, 191) !important;
+}
+
+.registerContainer {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(180, 179, 179);
+}
+
+.registerContainer .register {
+    background-color: rgb(241, 235, 235);
+    width: 50%;
+}
+
+.adminControls {
+    background-color: rgb(26, 26, 63);
+    width: 100%;
+    height: 100%;
+}
+
+.adminControls .add {
+    background-color: rgb(51, 51, 95);
+    color: #ffff;
+    width: 50%;
+}
+
+.adminControls .add input,
+.adminControls .add textarea,
+.adminControls .add select {
+    background-color: rgb(51, 51, 95);
+    color: #ffff;
+}
+
+.adminControls .add option,
+.adminControls .add select,
+.adminControls .add input::placeholder,
+.adminControls .add textarea::placeholder {
+    color: #ffff;
+}
+
+.adminControls .add .image_file {
+    cursor: pointer;
+}
+
+.adminControls .add select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-top: 10px;
+}
+
+.adminControls .add textarea {
+    resize: none;
+}
+
+.blogs {
+    background-color: rgb(26, 26, 63);
+}
+
+.blogs table {
+    width: 75%;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    background-color: rgb(51, 51, 95);
+    border-radius: 20px;
+    border-collapse: separate;
+    border-spacing: 30px 15px;
+}
+
+.dashboard {
+    background-color: rgb(26, 26, 63);
+}
+
+.dashboard .usersCard,
+.dashboard .blogsCard,
+.dashboard .catsCard  {
+    width: 15%;
+    background-color: rgb(51, 51, 95);
+    border-radius: 20px;
+}
+
+
